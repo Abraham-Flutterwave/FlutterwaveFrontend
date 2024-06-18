@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flutterwave Payment Button Web Component.</title>
+</head>
+<body>
+  <flutterwave-payment-button
+    public-key="FLWPUBK_TEST-02b9b5fc6406bd4a41c3ff141cc45e93-X"
+    tx-ref="hooli-tx-1920bbtyt"
+    amount="1000"
+    currency="NGN"
+    payment-options="card, mobilemoneyghana, ussd"
+    customer-email="user@example.com"
+    customer-phone="08012345678"
+    customer-name="John Doe"
+    title="My Store"
+    description="Payment for items in cart"
+    logo="https://yourlogo.com/logo.png"
+    label="Pay Now">
+  </flutterwave-payment-button>
+
+  <script type="module" src="./index.js"></script>
+</body>
+</html>
